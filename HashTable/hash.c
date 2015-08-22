@@ -20,7 +20,7 @@ struct hash_table {
 #endif
 
 #define HASHTABLE_INITIAL_CAPACITY 2
-/*implementation of djb2(k=33) hash function*/
+/*implementation of standard djb2(k=33) hash function*/
 unsigned long hashtable_hash(char *k){
          unsigned long hash = 5381;
          int c;
