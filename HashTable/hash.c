@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "hash.h"
 
-#if INTERFACE
+#if INTERFACE // Need to figure out!
 struct hash_entry {
        char *key;
        void *value;
