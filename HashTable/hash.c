@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include "hash.h"
 
+using namespace std;
+
 #if INTERFACE // Need to figure out!
 struct hash_entry {
        char *key;
