@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
+#include <iostream.h>
 #include "hash.h"
 
 using namespace std;
