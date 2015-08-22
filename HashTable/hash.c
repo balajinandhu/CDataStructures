@@ -4,7 +4,7 @@
 #include "hash.h"
 
 
-#if INTERFACE // Need to figure out!
+#if INTERFACE
 struct hash_entry {
        char *key;
        void *value;
