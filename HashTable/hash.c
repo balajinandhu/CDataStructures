@@ -1,10 +1,8 @@
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
-#include <iostream.h>
 #include "hash.h"
 
-using namespace std;
 
 #if INTERFACE // Need to figure out!
 struct hash_entry {

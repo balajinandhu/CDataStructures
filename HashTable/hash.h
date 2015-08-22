@@ -1,4 +1,3 @@
-/*Header definitions */
 typedef struct hash_table hash_table;
 unsigned long hashtable_hash(char *k);
 hash_table *hashtable_create();
